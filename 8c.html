@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+       
+        .search-container {
+            text-align: center;
+        }
+
+      
+        .google-logo {
+            margin: 20px 0;
+        }
+
+        
+        .search-input {
+            padding: 10px;
+            width: 300px;
+            border: 1px solid #ccc;
+        }
+
+        .search-button {
+            padding: 10px 20px;
+            background-color: #4285f4;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-container">
+        <img src="google_logo.png" alt="Google Logo" class="google-logo">
+        <form action="https://www.google.com/search" method="GET">
+            <input type="text" class="search-input" name="q" placeholder="Search Google or type a URL">
+            <input type="submit" class="search-button" value="Google Search">
+        </form>
+        <p>Press "Enter" to search</p>
+    </div>
+</body>
+</html>
